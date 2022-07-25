@@ -1,0 +1,39 @@
+//LOOPS
+
+// @for $i from 1 through 5 {
+//     .text-#{$i} {
+//         font-size: 15px * $i;
+//     }
+// }
+
+// $colors: (color1: blue, color2: red,color3: green);
+
+// @each $key, $color in $colors {
+//     .#{$color}-text {color: darken($color, 10);}
+// }
+
+
+//HERANÇA
+
+// .flex {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+// }
+
+// body{
+//     @extend .flex;
+//     flex-direction: column;
+//     height: 100%;
+
+// }
+
+///////////////
+p{
+    color: red;
+    cursor: pointer;
+
+    &:hover{
+        color: blue;
+    }
+}
